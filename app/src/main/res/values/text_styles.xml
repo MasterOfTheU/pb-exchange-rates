@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ToolbarStyle">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:fontFamily">@font/montserrat_light</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/textsize_main_small</item>
+    </style>
+
+    <!--Text Views-->
+
+    <style name="Header">
+        <item name="android:layout_marginTop">@dimen/margin_24dp</item>
+        <item name="android:layout_marginLeft">@dimen/margin_8dp</item>
+        <item name="android:layout_marginStart">@dimen/margin_8dp</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/textsize_main_small</item>
+    </style>
+
+    <style name="Header.Label">
+        <item name="android:textColor">@color/colorPrimaryLight</item>
+    </style>
+
+    <style name="PbCurrencyValue">
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/textsize_main_medium</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="PbCurrencyValue.Small">
+        <item name="android:layout_marginTop">@dimen/margin_8dp</item>
+        <item name="android:textSize">@dimen/textsize_main_small</item>
+    </style>
+
+    <style name="PbCurrencyValue.Small.Right">
+        <item name="android:textAlignment">viewEnd</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:textSize">@dimen/textsize_main_small</item>
+    </style>
+
+</resources>

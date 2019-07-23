@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Exchange Rates</string>
+    <string name="toolbar_exchange_rates">Курси валют</string>
+    <string name="header_privat">ПриватБанк</string>
+    <string name="header_nbu">НБУ</string>
+    <string name="ccy_eur">EUR</string>
+    <string name="label_pb_ccy">Валюта</string>
+    <string name="label_pb_buy">Купівля</string>
+    <string name="label_pb_sale">Продаж</string>
+    <string name="stats">Stats</string>
+</resources>

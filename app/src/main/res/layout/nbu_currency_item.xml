@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ccy_nbu"
+        style="@style/PbCurrencyValue.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="none"
+        android:maxLines="2"
+        android:scrollHorizontally="false" />
+
+    <TextView
+        android:id="@+id/ccy_nbu_exchange_rate"
+        style="@style/PbCurrencyValue.Small.Right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/ccy_nbu" />
+
+    <TextView
+        android:id="@+id/ccy_nbu_ratio"
+        style="@style/PbCurrencyValue.Small.Right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ccy_nbu_exchange_rate"
+        android:fontFamily="@font/montserrat_extralight"
+        android:textColor="@color/colorPrimaryLight" />
+
+</RelativeLayout>
